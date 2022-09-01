@@ -1,15 +1,14 @@
 .App {
   text-align: center;
-
   background-color: dimgray;
 }
 
-.questionBlock{
+.questionDiv{
   display: flex;
   justify-content: space-around;
 }
 
-.answerBlock{
+.answerDiv{
   margin:auto;
   border-top: 1px solid white;
 }

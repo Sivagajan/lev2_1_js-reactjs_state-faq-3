@@ -11,11 +11,12 @@ const Expand = () => {
     return (
         <section>
             <article >
-                <div className="questionBlock">
+                <div className="questionDiv">
                     <p className="question">Why is React great ?</p>
                     <button onClick={goBig}>+</button>
                 </div>
-                <div className="answerBlock" style={!expand?{display:'none'}:null}>
+
+                <div className="answerDiv" style={!expand?{display:'none'}:null}>
                     <p>Fast Learning Curve</p>
                 </div>
             </article>
